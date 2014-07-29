@@ -1,0 +1,23 @@
+{
+  "name": "beanstalk-seneca-transport-example",
+  "version": "0.0.0",
+  "description": "beanstalk seneca transport example",
+  "main": "service.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chico/seneca-transport-example.git"
+  },
+  "keywords": [
+    "seneca",
+    "transport",
+    "beanstalk",
+    "example"
+  ],
+  "author": "Chico Charlesworth",
+  "license": "MIT",
+  "dependencies": {
+    "seneca": "~0.5.19",
+    "seneca-beanstalk-transport": "^0.1.1",
+    "underscore": "~1.6.0"
+  }
+}
