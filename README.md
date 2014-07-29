@@ -6,7 +6,7 @@ This repository is a collection of simple [seneca](http://senecajs.org) transpor
 ### READMEs
    * [redis](https://github.com/chico/seneca-transport-example/blob/master/redis/README.md)
    * [beanstalk](https://github.com/chico/seneca-transport-example/blob/master/beanstalk/README.md)
-   * kafka
+   * [kafka](https://github.com/chico/seneca-transport-example/blob/master/kafka/README.md)
    * zmq
    * loadbalance
 
