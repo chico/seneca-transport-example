@@ -1,26 +1,34 @@
 
-This example shows you how to use beanstalk as seneca's transport mechanism.
+## Beanstalk seneca transport example
 
-## Install and run beanstalk
+### Install and run beanstalk
 
-### OSX
+#### OSX
 
+```
 $ brew install beanstalkd
 $ beanstalkd
+```
 
-### Other environments
+#### Other environments
 
 See http://kr.github.io/beanstalkd/download.html
 
-## Setup
+### Setup
 
+```
 $ (cd ../salestax-plugin && npm install)
 $ npm install
+```
 
-## Start service
+### Start service
 
+```
 $ node service
+```
 
-## Run client example
+### Run client example
 
+```
 $ node client
+```
