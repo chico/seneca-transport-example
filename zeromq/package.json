@@ -1,0 +1,23 @@
+{
+  "name": "zeromq-seneca-transport-example",
+  "version": "0.0.0",
+  "description": "zeromq seneca transport example",
+  "main": "service.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chico/seneca-transport-example.git"
+  },
+  "keywords": [
+    "seneca",
+    "transport",
+    "zeromq",
+    "zmq",
+    "example"
+  ],
+  "author": "Chico Charlesworth",
+  "license": "MIT",
+  "dependencies": {
+    "seneca": "~0.5.19",
+    "seneca-zmq-transport": "git://github.com/chico/seneca-zmq-transport.git"
+  }
+}
