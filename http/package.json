@@ -1,0 +1,21 @@
+{
+  "name": "http-seneca-transport-example",
+  "version": "0.0.0",
+  "description": "http seneca transport example",
+  "main": "service.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chico/seneca-transport-example.git"
+  },
+  "keywords": [
+    "seneca",
+    "transport",
+    "http",
+    "example"
+  ],
+  "author": "Chico Charlesworth",
+  "license": "MIT",
+  "dependencies": {
+    "seneca": "~0.5.19"
+  }
+}
