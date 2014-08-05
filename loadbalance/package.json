@@ -17,6 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "seneca": "~0.5.19",
-    "seneca-loadbalance-transport": "git://github.com/mmalecki/seneca-loadbalance-transport.git"
+    "seneca-loadbalance-transport": "^0.1.0"
   }
 }
