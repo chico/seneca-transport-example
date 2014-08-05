@@ -21,4 +21,4 @@ seneca.ready(function(){
   }, 500);
 });
 
-setTimeout(function(){process.exit();}, 5000);
+setTimeout(function(){process.exit();}, 2000);
