@@ -17,6 +17,12 @@ See http://kafka.apache.org/07/quickstart.html
 $ (cd /usr/local/kafka && bin/zookeeper-server-start.sh config/zookeeper.properties)
 ```
 
+### Set host.name to localhost in config/server.properties
+
+```
+(cd /usr/local/kafka && sed -i '' -e 's/#host.name=localhost/host.name=localhost/g' config/server.properties)
+```
+
 ### Start kafka
 
 ```
@@ -42,7 +48,7 @@ $ (cd /usr/local/kafka && bin/kafka-topics.sh --create --zookeeper localhost:218
 $ (cd /usr/local/kafka && bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 3 --topic response)
 ```
 
-### Initialize zookeeper's configuration
+### Initialize broker and topics configuration
 
 ```
 $ node config

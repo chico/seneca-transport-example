@@ -6,7 +6,7 @@ var seneca = require('seneca')()
       	kafka: {namespace: 'seneca', group: 'seneca', requestTopic: 'request', responseTopic: 'response'},
         microbial: {zkroot: 'localhost:2181', namespace: 'seneca', start: 'all'}
       })
-  		.client({type:'queue'});
+  		.client({type:'kafka'});
 
 function print(err,result) {
   if(err) return console.error(err);
@@ -15,10 +15,10 @@ function print(err,result) {
 
 seneca.ready(function(){
   var s = this;
-  setInterval(function() {
+  setTimeout(function() {
     s.act({plugin:'salestax', cmd:'salestax', net:100, country:'IE'}, print);
 		s.act({plugin:'salestax', cmd:'salestax', net:100, country:'UK'}, print);
-  }, 2000);
+  }, 500);
 });
 
 setTimeout(function(){process.exit();}, 5000);

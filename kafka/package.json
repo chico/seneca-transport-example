@@ -16,8 +16,9 @@
   "author": "Chico Charlesworth",
   "license": "MIT",
   "dependencies": {
+    "microbial": "0.0.5",
     "seneca": "~0.5.19",
-    "seneca-kafka-transport": "^0.2.4",
-    "microbial": "0.0.5"
+    "seneca-kafka-transport": "git://github.com/chico/seneca-kafka-transport.git",
+    "uuid": "^1.4.1"
   }
 }

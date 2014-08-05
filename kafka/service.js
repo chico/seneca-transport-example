@@ -5,4 +5,4 @@ var seneca = require('seneca')()
         microbial: {zkroot: 'localhost:2181', namespace: 'seneca', start: 'all'}
       })
       .use('../salestax-plugin')
-      .listen({type:'queue'});
+      .listen({type:'kafka'});
