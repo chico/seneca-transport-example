@@ -26,8 +26,8 @@ var resetConfig = function(done) {
 var updateConfig = function(done) {
   var config = mcb.blankConfig();
   mcb.addBrokerToConfig(config, host, 9092, 2000000);
-  mcb.addTopicToConfig(config, requestTopic, 'queue', 3, 'roundRobin');
-  mcb.addTopicToConfig(config, responseTopic, 'queue', 3, 'direct');
+  mcb.addTopicToConfig(config, requestTopic, 'queue', 1, 'roundRobin');
+  mcb.addTopicToConfig(config, responseTopic, 'queue', 1, 'direct');
 
   console.log(JSON.stringify(config, null, 2));
 

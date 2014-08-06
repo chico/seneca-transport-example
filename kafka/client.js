@@ -17,8 +17,8 @@ seneca.ready(function(){
   var s = this;
   setTimeout(function() {
     s.act({plugin:'salestax', cmd:'salestax', net:100, country:'IE'}, print);
-		s.act({plugin:'salestax', cmd:'salestax', net:100, country:'UK'}, print);
+    s.act({plugin:'salestax', cmd:'salestax', net:100, country:'UK'}, print);
   }, 500);
 });
 
-setTimeout(function(){process.exit();}, 2000);
+setTimeout(function(){process.exit();}, 1000);
